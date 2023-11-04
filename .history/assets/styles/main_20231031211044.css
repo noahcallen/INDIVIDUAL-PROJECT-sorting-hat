@@ -1,0 +1,20 @@
+/* main.css */
+
+/* Change the background color and border radius of the form inputs */
+.form-control {
+  background-color: #f3f3f3;
+  border-radius: 8px;
+}
+
+/* Change the background color and text color of the button */
+.btn-primary {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Add hover effect to the button */
+.btn-primary:hover {
+  background-color: #2980b9;
+}
