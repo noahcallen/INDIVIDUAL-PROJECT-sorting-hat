@@ -1,0 +1,33 @@
+body {
+  background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/F0dXXC55ZEyf0sxAugs0k/bb55db33db8b21786fe9fd55580b097c/HP-F1-philosophers-stone-great-hall-end-of-year-feast-gryffindor-win-web-landscape?fm=jpg&q=70&w=2560');
+}
+
+#addForm {
+  margin: 10px;
+  border: 10px;
+  padding: 10px;
+}
+
+.form-control {
+  margin: 10px;
+}
+
+#title {
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  display: inline-block; /* Change the display to inline-block */
+  vertical-align: top;
+  margin: 0px;
+}
+
+#app {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Display cards in rows of 5 */
+  gap: 20px; /* Add gap between cards */
+  justify-content: center; /* Center the grid */
+  padding: 20px; /* Add padding around the cards */
+}

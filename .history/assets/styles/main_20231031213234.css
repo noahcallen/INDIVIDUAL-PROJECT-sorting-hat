@@ -1,0 +1,11 @@
+/* CSS to center the button within the form */
+.my-form {
+  max-width: 300px; /* Set the maximum width of the form */
+  margin: 0 auto; /* Center the form horizontally */
+  text-align: center; /* Center the button */
+}
+
+.center-btn {
+  display: block; /* Make the button a block element */
+  margin-top: 15px; /* Add margin to the top of the button */
+}

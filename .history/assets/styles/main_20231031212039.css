@@ -1,0 +1,9 @@
+/* CSS to shorten the length of input fields and center the form */
+.my-form {
+  max-width: 30px; /* Set the maximum width of the form */
+  margin: 0 auto; /* Center the form horizontally */
+}
+
+.form-control {
+  width: 500px; /* Set the width of the input fields to 100% */
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h1 id="title">Pet Adoption</h1>
+
+    <div id="addForm">
+        <form id="add-pet-form">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="petName" placeholder="Buster">
+                <label for="petName">Pet's Name</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="color" placeholder="Brown">
+                <label for="color">Pet's Color</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="specialSkill" placeholder="Tricks">
+                <label for="specialSkill">Pet's Skill</label>
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control" id="imageUrl" placeholder="www.photo.com">
+                <label for="imageUrl">Pet Image Link</label>
+            </div>
+            <div id="headerPet">
+                <header>Pet Type:</header>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="petType" id="cat">
+                <label class="form-check-label" for="cat">Cat</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="petType" id="dog" checked>
+                <label class="form-check-label" for="dog">Dog</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="petType" id="dino">
+                <label class="form-check-label" for="dino">Dino</label>
+            </div>
+            <div class="d-grid gap-2">
+                <button class="btn btn-success" type="submit" id="form-submit">Add Pet</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="button-group" class="text-center">
+        <button type="button" id="cat" class="btn btn-primary">Cats</button>
+        <button type="button" id="dog" class="btn btn-warning">Dogs</button>
+        <button type="button" id="dino" class="btn btn-danger">Dinos</button>
+        <button type="button" id="allPets" class="btn btn-info">All</button>
+    </div>
+
+    <div id="app" class="text-center"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
