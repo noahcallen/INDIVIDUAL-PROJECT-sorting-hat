@@ -93,7 +93,7 @@ const createStudent = (taco) => {
     id: students.length + 1,
     name: document.querySelector('#student-name').value,
     imageURL: document.querySelector('#student-img').value,
-    house: randomHouse(),
+    house: document.querySelector('#student-house').value,
   }
   students.push(newStudentObj);
   cardsOnDom(students, '#app');
@@ -166,13 +166,9 @@ showSlythButton.addEventListener('click', () => {
 });
 //close filter buttons 
 
-//random house assignment function
-// const studentRandomHouse = students.house;
-// const randomHouse = studentRandomHouse[Math.floor(Math.random()*studentRandomHouse.length)];
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
 
-const randomHouse = (students) => {
-  const houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin'];
-  const randomIndex = Math.floor(Math.random() * houses.length); // Pick a random index
-  const randomHouse = houses[randomIndex]; // Get the house at the random index
-  return randomHouse;
-}
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})

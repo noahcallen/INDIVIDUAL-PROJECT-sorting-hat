@@ -8,16 +8,16 @@
   <link href="main.css" rel="stylesheet">
 </head>
 <body>
-<div class="pop-up">
+
   <div class="modal" id="overlayModal" tabindex="-1">
-    <div class="modal-dialog modal-fullscreen-lg-down">
+    <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title">Welcome to Sorting Hat!</h5>
-          <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+          <h5 class="modal-title">Welcome to My Website</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">   
-          <p>Here, you can create, sort, or expel any Hogwarts student you can imagine! click anywhere to get started with the website!</p>
+
           </div>
       </div>
     </div>
@@ -31,13 +31,8 @@
     };
   </script>
 
-</div>
+
   <h1 class="welcome">Welcome to Hogwarts!</h1>
-  <div class="dropdown">
-    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-      Dropdown button
-    </button>
-    <ul class="dropdown-menu">
   <div class="form">
     <form class="row g-3">
       <h3 id="enter-name">Enter First Year's Name</h3>
@@ -52,13 +47,15 @@
         <label for="student-input" class="visually-hidden">Student Name</label>
         <input type="img" class="form-control" id="student-img" placeholder="URL">
       </div>
+      <div>
+        <label for="student-input" class="visually-hidden">Student Name</label>
+        <input type="house" class="form-control" id="student-house" placeholder="Ravenclaw">
+      </div>
       <div class="col-auto">
         <button type="submit" class="btn btn-primary mb-3">Sort!</button>
       </div>
     </form>
   </div>
-</ul>
-</div>
   <div class="sort-btn">
     <h3>Filter Students</h3>
     <button class="btn btn-secondary" id="show-btn">All Students</button>

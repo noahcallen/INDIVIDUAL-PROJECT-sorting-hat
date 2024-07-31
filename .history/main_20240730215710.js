@@ -93,7 +93,7 @@ const createStudent = (taco) => {
     id: students.length + 1,
     name: document.querySelector('#student-name').value,
     imageURL: document.querySelector('#student-img').value,
-    house: randomHouse(),
+    house: randomHouse,
   }
   students.push(newStudentObj);
   cardsOnDom(students, '#app');

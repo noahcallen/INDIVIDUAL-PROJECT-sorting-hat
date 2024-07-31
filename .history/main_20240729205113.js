@@ -93,10 +93,10 @@ const createStudent = (taco) => {
     id: students.length + 1,
     name: document.querySelector('#student-name').value,
     imageURL: document.querySelector('#student-img').value,
-    house: randomHouse(),
+    house: document.querySelector('#student-house').value,
   }
   students.push(newStudentObj);
-  cardsOnDom(students, '#app');
+  cardsOnDom(students);
   form.reset();
 };
 //listen for the sort button click 
@@ -119,60 +119,3 @@ document.querySelector('#app').addEventListener('click', (e) => {//waiting to se
     }
   }
 });
-
-//filter function 
-const filter = (array, houseString) => {
-  const studentArray = [];
-
-  for (const student of array) {
-    if (student.house === houseString) {
-      studentArray.push(student);
-    }
-  }
-  return studentArray;
-}
-//close close filter 
-
-
-//buttons for filters
-const showAllButton = document.querySelector('#show-btn');
-const showGryfButton = document.querySelector('#gryf');
-const showHuffButton = document.querySelector('#huff');
-const showRaveButton = document.querySelector('#rave');
-const showSlythButton = document.querySelector('#slyth');
-
-showAllButton.addEventListener('click', () =>{
-  cardsOnDom(students, '#app');
-});
-
-showGryfButton.addEventListener('click', () => {
-  const gryfStudent = filter(students, 'Gryffindor');
-  cardsOnDom(gryfStudent, '#app');
-});
-
-showHuffButton.addEventListener('click', () => {
-  const huffStudent = filter(students, 'Hufflepuff');
-  cardsOnDom(huffStudent, '#app');
-});
-
-showRaveButton.addEventListener('click', () => {
-  const raveStudent = filter(students, 'Ravenclaw');
-  cardsOnDom(raveStudent, '#app');
-});
-
-showSlythButton.addEventListener('click', () => {
-  const slythStudent = filter(students, 'Slytherin');
-  cardsOnDom(slythStudent, '#app');
-});
-//close filter buttons 
-
-//random house assignment function
-// const studentRandomHouse = students.house;
-// const randomHouse = studentRandomHouse[Math.floor(Math.random()*studentRandomHouse.length)];
-
-const randomHouse = (students) => {
-  const houses = ['Gryffindor', 'Hufflepuff', 'Ravenclaw', 'Slytherin'];
-  const randomIndex = Math.floor(Math.random() * houses.length); // Pick a random index
-  const randomHouse = houses[randomIndex]; // Get the house at the random index
-  return randomHouse;
-}
