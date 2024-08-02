@@ -1,0 +1,15 @@
+body {
+  background-color: cadetblue !important;
+}
+
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2%;
+}
+
+.pop-up {
+  display: flex;
+  flex-wrap: wrap;
+}

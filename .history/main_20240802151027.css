@@ -1,27 +1,11 @@
 body {
-  background-image:url(https://i.pinimg.com/originals/fe/fd/34/fefd3440ebfe5657663d0f0a3b464115.jpg) !important;
+  background-image:url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Flandscapes--604608318719100582%2F&psig=AOvVaw0cjLtE3P4Ow6AqEAXq1ngk&ust=1722712100506000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPiY7OeA14cDFQAAAAAdAAAAABAR);
   background-color: cadetblue !important;
-  object-fit: cover;
-  color: aliceblue;
-  font-family: fantasy;
 }
 
-.btn {
-  font-family: fantasy;
-}
 .card {
   height: 150px;
   width: 300px;
-}
-
-.card-title {
-  font-family: fantasy;
-}
-
-.img-fluid {
-  height: 148px;
-  width: 200px;
-  object-fit: cover;
 }
 
 .army-names {
@@ -29,7 +13,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0px 200px 0px 200px;
-  font-family: fantasy;
 }
 
 .doms {
@@ -40,38 +23,23 @@ body {
 }
 
 #app {
-  background-image:url(https://rare-gallery.com/mocahbig/1358097-Hogwarts-Crest-Harry-Potter-Desktop.jpg);
-  object-fit: cover;
-  object-position: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 5px 5px;
+  border: solid 5px pink;
   width: 45%;
   height: 50%;
   margin: 10px;
 }
 #app2 {
-  background-image:url(https://wallpapercave.com/wp/wp7649995.jpg);
-  object-fit: cover;
   display: flex;
   flex-wrap: wrap;
   gap: 5px 5px;
+  border: solid 5px rgb(255, 0, 43);
   width: 45%;
   height: 50%;
   margin: 10px;
 
-}
-
-.modal-content{
-  background-image:url(https://bookstacked.com/wp-content/uploads/2016/01/Pottermore-Sorting-Hat.jpg);
-}
-
-.modal-body {
-  font-size: large;
-}
-
-.modal {
-  text-align: center !important;
 }
 .welcome {
   display: flex;
@@ -84,7 +52,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2%;
-  font-family: fantasy;
 }
 
 .dropdown-center {
@@ -149,7 +116,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin: 10px;
-  font-family: fantasy;
 }
 
 .sort-btns {
@@ -158,19 +124,4 @@ body {
   justify-content: center;
   gap: 10px;
   margin: 10px;
-}
-
-.Ravenclaw-house {
-  color: blue;
-}
-.Gryffindor-house {
-  color:red;
-}
-
-.Hufflepuff-house {
-  color: goldenrod;
-}
-
-.Slytherin-house {
-  color: green;
 }

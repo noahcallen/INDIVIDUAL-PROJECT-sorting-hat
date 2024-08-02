@@ -1,0 +1,59 @@
+body {
+  background-color: cadetblue !important;
+}
+
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2%;
+}
+
+.dropdown-center {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 300px;
+  width: 600px;
+}
+
+.form-control {
+  width: 80%;
+}
+
+#enter-name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 8%;
+}
+#student-form-prompt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 3%;
+
+}
+
+#image-form-prompt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 1%;
+
+}
