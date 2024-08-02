@@ -1,35 +1,10 @@
 body {
-  background-image:url(https://i.pinimg.com/originals/fe/fd/34/fefd3440ebfe5657663d0f0a3b464115.jpg) !important;
   background-color: cadetblue !important;
-  object-fit: cover;
-  color: aliceblue;
-  font-family: fantasy;
 }
 
-.btn {
-  font-family: fantasy;
-}
 .card {
   height: 150px;
   width: 300px;
-}
-
-.card-title {
-  font-family: fantasy;
-}
-
-.img-fluid {
-  height: 148px;
-  width: 200px;
-  object-fit: cover;
-}
-
-.army-names {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0px 200px 0px 200px;
-  font-family: fantasy;
 }
 
 .doms {
@@ -40,38 +15,21 @@ body {
 }
 
 #app {
-  background-image:url(https://rare-gallery.com/mocahbig/1358097-Hogwarts-Crest-Harry-Potter-Desktop.jpg);
-  object-fit: cover;
-  object-position: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
-  width: 45%;
-  height: 50%;
+  border: solid 5px pink;
+  width: 40%;
+  height: 40%;
   margin: 10px;
 }
 #app2 {
-  background-image:url(https://wallpapercave.com/wp/wp7649995.jpg);
-  object-fit: cover;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px 5px;
-  width: 45%;
-  height: 50%;
+  border: solid 5px rgb(255, 0, 43);
+  width: 40%;
+  height: 40%;
   margin: 10px;
 
-}
-
-.modal-content{
-  background-image:url(https://bookstacked.com/wp-content/uploads/2016/01/Pottermore-Sorting-Hat.jpg);
-}
-
-.modal-body {
-  font-size: large;
-}
-
-.modal {
-  text-align: center !important;
 }
 .welcome {
   display: flex;
@@ -84,7 +42,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2%;
-  font-family: fantasy;
 }
 
 .dropdown-center {
@@ -149,7 +106,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin: 10px;
-  font-family: fantasy;
 }
 
 .sort-btns {
@@ -158,19 +114,4 @@ body {
   justify-content: center;
   gap: 10px;
   margin: 10px;
-}
-
-.Ravenclaw-house {
-  color: blue;
-}
-.Gryffindor-house {
-  color:red;
-}
-
-.Hufflepuff-house {
-  color: goldenrod;
-}
-
-.Slytherin-house {
-  color: green;
 }

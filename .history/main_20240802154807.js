@@ -63,7 +63,9 @@ const cardsOnDom = (array, divId) => {
     <div class="card mb-3" style="max-width: 540px;">
       <div class="row g-0">
         <div class="col-md-4">
+          <div class="student-pic">
           <img src="${student.imageURL}" class="img-fluid rounded-start" alt="...">
+          </div>
         </div>
         <div class="col-md-8">
           <div class="card-body">

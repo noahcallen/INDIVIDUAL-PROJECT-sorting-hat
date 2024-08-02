@@ -32,35 +32,34 @@
 </div>
  
 <h1 class="welcome-1">Welcome to Hogwarts!</h1>
-  <div class="dropdown-center">
-    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Click To Create New Student</button>
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+      Dropdown button
+    </button>
     <ul class="dropdown-menu">
   <div class="form">
     <form class="row g-3">
-      <h3 id="enter-name">Enter First Year's Name & Photo</h3>
+      <h3 id="enter-name">Enter First Year's Name</h3>
       <div class="col-auto">
         <h5 id="student-form-prompt">Student:</h5>
+      </div>
+      <div class="col-auto">
         <label for="student-input" class="visually-hidden">Student Name</label>
-        <input type="name" class="form-control" id="student-name" placeholder=" Ex: Harry Potter">
+        <input type="name" class="form-control" id="student-name" placeholder="Harry Potter">
       </div>
       <div>
-        <h5 id="image-form-prompt">Image Address:</h5>
-        <label for="image-input" class="visually-hidden">Student Image</label>
+        <label for="student-input" class="visually-hidden">Student Name</label>
         <input type="img" class="form-control" id="student-img" placeholder="URL">
       </div>
       <div class="col-auto">
-        <button type="submit" class="btn btn-outline-success">Sort!</button>
+        <button type="submit" class="btn btn-primary mb-3">Sort!</button>
       </div>
     </form>
   </div>
 </ul>
 </div>
-
-<div class="sort-btns-head">
-  <h3>Sort Students</h3>
-</div>
-
-  <div class="sort-btns">
+  <div class="sort-btn">
+    <h3>Filter Students</h3>
     <button class="btn btn-secondary" id="show-btn">All Students</button>
     <button class="btn btn-danger" id="gryf">Gryffindor</button>
     <button class="btn btn-warning" id="huff">Hufflepuff</button>
@@ -68,14 +67,9 @@
     <button class="btn btn-success" id="slyth">Slytherin</button>
   </div>
 
-  <div class="army-names">
-    <h5>Hogwart's Students</h5>
-    <h5>Voldemort's Army</h5>
-  </div>
-  <div class="doms">
   <div id="app"></div>
+  <p>----------------------------Expelled Array------------------------</p>
   <div id="app2"></div>
-  </div>
   <script src="main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -3,25 +3,11 @@ body {
   background-color: cadetblue !important;
   object-fit: cover;
   color: aliceblue;
-  font-family: fantasy;
 }
 
-.btn {
-  font-family: fantasy;
-}
 .card {
   height: 150px;
   width: 300px;
-}
-
-.card-title {
-  font-family: fantasy;
-}
-
-.img-fluid {
-  height: 148px;
-  width: 200px;
-  object-fit: cover;
 }
 
 .army-names {
@@ -29,7 +15,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0px 200px 0px 200px;
-  font-family: fantasy;
 }
 
 .doms {
@@ -45,7 +30,7 @@ body {
   object-position: center;
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 5px 5px;
   width: 45%;
   height: 50%;
   margin: 10px;
@@ -63,14 +48,16 @@ body {
 }
 
 .modal-content{
-  background-image:url(https://bookstacked.com/wp-content/uploads/2016/01/Pottermore-Sorting-Hat.jpg);
+  background-image:url(https://imgix.bustle.com/2016/1/28/762fe0dc-5770-4614-81a6-02bc8ec19c25.jpg?w=350&q=50&dpr=2);
+  object-fit: fill;
+  object-position: center;
 }
 
 .modal-body {
   font-size: large;
 }
 
-.modal {
+.modal-title {
   text-align: center !important;
 }
 .welcome {
@@ -84,7 +71,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   padding: 2%;
-  font-family: fantasy;
 }
 
 .dropdown-center {
@@ -149,7 +135,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   margin: 10px;
-  font-family: fantasy;
 }
 
 .sort-btns {

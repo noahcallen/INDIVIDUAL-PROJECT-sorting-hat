@@ -1,0 +1,47 @@
+body {
+  background-color: cadetblue !important;
+}
+
+.welcome {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.welcome-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2%;
+}
+
+.dropdown {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  height: 200px;
+  width: 600px;
+}
+
+
+
+.dropdown-menu{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center
+}
+
+.dropdown-toggle {
+  display:block;
+  margin: 20px;
+}
